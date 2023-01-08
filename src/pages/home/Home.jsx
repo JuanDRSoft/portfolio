@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import About from "../../components/About";
+import Skills from "../../components/Skills";
 import Profile from "../../img/profile.jpg";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         </div>
       </div>
       <About />
+      <Skills />
     </div>
   );
 };
