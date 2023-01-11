@@ -1,5 +1,13 @@
 import PWEASY from "../../src/img/easytraining-web.png";
 import SOLUTIO from "../../src/img/solutio-app.png";
+import APPEASY from "../../src/img/easytraining-app.png";
+import TINTERILLOS from "../../src/img/tinterillos.png";
+import CRIPTOS from "../../src/img/criptos.png";
+import UPTASK from "../../src/img/uptask.png";
+import VET from "../../src/img/veterinaria.png";
+import PORTFOLIO from "../../src/img/portafolio.png";
+import CMR from "../../src/img/cmr.png";
+import GUITAR from "../../src/img/guitarla.png";
 
 export const data = [
   {
@@ -28,7 +36,7 @@ export const data = [
   {
     title: "APP EASYTRAINING",
     link: "https://easytraining-premium.netlify.app/",
-    image: "../../src/img/easytraining-app.png",
+    image: APPEASY,
     tags: [
       "REACT JS",
       "JAVASCRIPT",
@@ -44,7 +52,7 @@ export const data = [
   {
     title: "TINTERILLOS SOLUTIO",
     link: "https://tinterillos.com/",
-    image: "../../src/img/tinterillos.png",
+    image: TINTERILLOS,
     tags: [
       "REACT JS",
       "JAVASCRIPT",
@@ -62,14 +70,14 @@ export const data = [
   {
     title: "COTIZADOR DE CRIPTOMONEDAS",
     link: "https://cotizacriptos.netlify.app/",
-    image: "../../src/img/criptos.png",
+    image: CRIPTOS,
     tags: ["REACT JS", "JAVASCRIPT", "HTML", "CSS", "API REST", "VITE"],
   },
 
   {
     title: "UP TASK",
     link: "https://up-task-mern.netlify.app/",
-    image: "../../src/img/uptask.png",
+    image: UPTASK,
     tags: [
       "REACT JS",
       "JAVASCRIPT",
@@ -86,21 +94,21 @@ export const data = [
   {
     title: "SEGUIMIENTO VETERINARIA",
     link: "https://control-vet.netlify.app/",
-    image: "../../src/img/veterinaria.png",
+    image: VET,
     tags: ["REACT JS", "JAVASCRIPT", "HTML", "CSS", "VITE"],
   },
 
   {
     title: "PORTAFOLIO",
     link: "https://juandiegoriossaenz.tech/",
-    image: "../../src/img/portafolio.png",
+    image: PORTFOLIO,
     tags: ["REACT JS", "JAVASCRIPT", "HTML", "CSS", "VITE", "ANIMATIONS"],
   },
 
   {
     title: "GUITARLA",
     link: "",
-    image: "../../src/img/guitarla.png",
+    image: GUITAR,
     tags: [
       "REACT JS",
       "JAVASCRIPT",
@@ -116,7 +124,7 @@ export const data = [
   {
     title: "CMR - CLIENTES",
     link: "",
-    image: "../../src/img/cmr.png",
+    image: CMR,
     tags: [
       "REACT JS",
       "JAVASCRIPT",
