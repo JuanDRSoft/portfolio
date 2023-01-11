@@ -1,15 +1,18 @@
+import PWEASY from "../../src/img/easytraining-web.png";
+import SOLUTIO from "../../src/img/solutio-app.png";
+
 export const data = [
   {
     title: "PAGINA WEB EASYTRAINING",
     link: "https://easytrainingoficial.netlify.app/",
-    image: "../../src/img/easytraining-web.png",
+    image: PWEASY,
     tags: ["REACT JS", "JAVASCRIPT", "HTML", "CSS", "TAILWIND CSS"],
   },
 
   {
     title: "SOLUTIO APP",
     link: "https://solutioprocess.netlify.app/",
-    image: "../../src/img/solutio-app.png",
+    image: SOLUTIO,
     tags: [
       "REACT JS",
       "JAVASCRIPT",

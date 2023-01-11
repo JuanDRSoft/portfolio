@@ -1,5 +1,6 @@
 import React from "react";
 import { data } from "../data/portfolioData";
+import PWEASY from "../../src/img/easytraining-web.png";
 
 const Projects = () => {
   return (
