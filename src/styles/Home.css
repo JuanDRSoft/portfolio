@@ -1,4 +1,4 @@
-.container{
+.container {
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
@@ -116,20 +116,19 @@ h1 {
   }
 
   .skills{
-    height: 71px;
-    margin-top: 10vh;
-    display: flex;
+    margin-top: 5vh;
+    display: block;
     justify-content: center;
     transform: translatey(0px);
     animation: floatSkills 10s ease-in-out infinite;
-    gap: 50px;
   }
 
   .skills-img {
-    width: auto;
-  
+    width: 61px;
     transform: translateX(15rem);
     animation: horizontal 500ms linear forwards;
+    margin-right: 25px;
+    margin-left: 25px;
   }
 
   @keyframes horizontal {
@@ -137,31 +136,6 @@ h1 {
     100%{
       transform: translateX(0);
     }
+    
   }
 
-.skills-img:hover {
-    color: white;
-    z-index: 2;
-}
-
-.skills-img::before {  
-    transform: scaleX(0);
-    transform-origin: bottom right;
-}
-
-.skills-img:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-
-
-.skills-img::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    inset: 0 0 0 0;
-    background-color: rgb(249, 0, 0);
-    z-index: -1;
-    transition: transform .3s ease;
-}

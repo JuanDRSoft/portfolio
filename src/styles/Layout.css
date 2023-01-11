@@ -66,8 +66,8 @@
 
 
 .linkedin:hover {
-    color: white;
     z-index: 2;
+    transform: rotateY(360deg);
 }
 
 .linkedin::before {  
@@ -100,7 +100,6 @@
 }
 
 .github:hover {
-    color: white;
     z-index: 2;
 }
 
