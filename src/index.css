@@ -23,6 +23,19 @@ body {
   background-color: #2a2a2a;
 }
 
+body::-webkit-scrollbar {
+  width: 10px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #2a2a2a;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(75, 75, 75);    
+  border-radius: 20px;      
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

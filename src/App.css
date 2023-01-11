@@ -10,15 +10,6 @@
   margin: 0 auto;
 }
 
-#container::-webkit-scrollbar {
-  width: 3px;
-}
-
-#container::-webkit-scrollbar-thumb {
-  background-color: #6a6a6a;
-}
-
-
 .box {
   display: flex;
   align-items: center;
