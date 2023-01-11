@@ -1,7 +1,5 @@
 import React from "react";
 import { data } from "../data/portfolioData";
-import PWEASY from "../../src/img/easytraining-web.png";
-import SOLUTIO from "../../src/img/solutio-app.png";
 
 const Projects = () => {
   return (

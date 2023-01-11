@@ -77,6 +77,8 @@
    justify-content: center;
    max-width: 100vw;
    margin-top: 30px;
+   transform: translateX(15rem);
+   animation: horizontal 500ms linear forwards;
  }
 
  .tags {
