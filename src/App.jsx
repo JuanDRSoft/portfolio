@@ -5,17 +5,20 @@ import Layout from "./layout/Layout";
 import Contact from "./pages/contact/Contact";
 import Home from "./pages/home/Home";
 import Portfolio from "./pages/portfolio/Portfolio";
+import { Provider } from "./context/Provider";
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="contact" index element={<Contact />} />
-          <Route path="portfolio" index element={<Portfolio />} />
-        </Route>
-      </Routes>
+      <Provider>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="contact" index element={<Contact />} />
+            <Route path="portfolio" index element={<Portfolio />} />
+          </Route>
+        </Routes>
+      </Provider>
     </BrowserRouter>
   );
 }

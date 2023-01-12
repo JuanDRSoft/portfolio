@@ -114,3 +114,75 @@ h2 {
 .container social a:nth-child(3):before {
     background: #F44336;
 }
+
+.alert {
+    position: fixed;
+    background-color: #ffffffe4;
+    float: left;
+    width: 28%;
+    text-align: center;
+    font-size: 1.1em; 
+    z-index: 2;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.719);
+    border-radius: 0 10px 10px 0;
+    animation-name: slideIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    opacity:1;
+    animation-delay:0s;
+}
+
+.alert-off {
+    position: fixed;
+    background-color: #ffffffe4;
+    float: left;
+    width: 28%;
+    text-align: center;
+    font-size: 1.1em; 
+    z-index: 2;
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.719);
+    border-radius: 0 10px 10px 0;
+    animation-name: slideOff;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    opacity:1;
+    animation-delay:0s;
+}
+
+.alert-off p {
+    color: black;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    text-transform: capitalize;
+}
+
+
+.danger {
+    border-top: 4px solid rgb(128, 0, 0);
+    border-right: 4px solid rgb(128, 0, 0);
+    border-bottom: 4px solid rgb(128, 0, 0);
+}
+
+.succes {
+    border-top: 4px solid green;
+    border-right: 4px solid green;
+    border-bottom: 4px solid green;
+}
+
+.alert p {
+    color: black;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    text-transform: capitalize;
+}
+
+@keyframes slideIn{
+    0%   {margin-left: -500px; opacity:0;}
+    100% {margin-left: 0px; opacity:1;}
+  }
+
+@keyframes slideOff{
+    100%   {margin-left: -500px; opacity:0;}
+    0% {margin-left: 0px; opacity:1;}
+  }
+
