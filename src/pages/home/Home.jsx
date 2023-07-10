@@ -102,8 +102,7 @@ const Home = () => {
 
               <div className="map">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1182.500835317611!2d-75.69245801904322!3d4.513923354046322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f5e9b2fa3785%3A0x47eaf3d4d8cab0a!2sArmenia%2C%20Quind%C3%ADo!5e0!3m2!1ses!2sco!4v1680995233082!5m2!1ses!2sco"
-                  allowfullscreen=""
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d497.16231173953605!2d-75.68924926665483!3d4.540188198568253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1689021835180!5m2!1ses!2sco"
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>

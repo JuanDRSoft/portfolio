@@ -1,9 +1,9 @@
 // import Freelance from
-import Solutio from "../img/solutio.png";
-import JthreeAgency from "../img/jthreeAgency.png";
-import Fiverr from "../img/Fiverr-logo.png";
-import Eam from "../img/eam.png";
-import Udemy from "../img/udemy.png";
+import SOLUTIO from "../img/solutio.png";
+import JTHREEAGENCY from "../img/jthreeAgency.png";
+import FIVERR from "../img/Fiverr-logo.png";
+import EAM from "../img/eam.png";
+import UDEMY from "../img/udemy.png";
 
 export const dataExperience = [
   {
@@ -12,7 +12,7 @@ export const dataExperience = [
     nameCompany: "Freelance",
     description:
       "Desarrollador full stack de aplicaciones y sitios web de todo tipo",
-    icon: Fiverr,
+    icon: FIVERR,
     contractType: "Por contrato",
   },
   {
@@ -20,7 +20,7 @@ export const dataExperience = [
     work: "Full Stack Developer",
     nameCompany: "Solutio",
     description: "Desarrollador full stack de aplicación juridica",
-    icon: Solutio,
+    icon: SOLUTIO,
     contractType: "Temporal",
   },
   {
@@ -29,7 +29,7 @@ export const dataExperience = [
     nameCompany: "Jthree Agency",
     description:
       "Desarrollador full stack de aplicaciones y sitios web para empresas locales",
-    icon: JthreeAgency,
+    icon: JTHREEAGENCY,
     contractType: "Indefinido",
   },
 ];
@@ -40,7 +40,7 @@ export const dataEducation = [
     study: "Ingenieria de Software",
     nameCompany: "EAM",
     description: "Cursado hasta 5to semestre de ingenieria de software",
-    icon: Eam,
+    icon: EAM,
   },
   {
     date: "2021-Presente",
@@ -48,6 +48,6 @@ export const dataEducation = [
     nameCompany: "Udemy",
     description:
       "Diferentes cursos de ReactJS, Software de control de versiones, JavaScript, HTML, CSS",
-    icon: Udemy,
+    icon: UDEMY,
   },
 ];
