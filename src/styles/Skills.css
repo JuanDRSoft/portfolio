@@ -1,0 +1,173 @@
+.skill {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    z-index: -10;
+    background-color: rgba(0, 0, 0, 0.863);
+    opacity: 0%;
+    transition-duration: 500ms;
+}
+
+.skill.open {
+    z-index: 10;
+    opacity: 100%;
+    transition-duration: 500ms;
+ }
+
+.skill .container {
+    background-color: #2a2a2a;
+    width: 50vw;
+    height: 90vh;
+    position: relative;
+    border-radius: 20px;
+}
+
+.skill .container header {
+    padding-inline: 20px;
+    padding-top: 10px;
+}
+
+.skill .container header hr {
+    height: 1px;
+    border: none;
+    background: linear-gradient(90deg, rgba(168,168,168,1) 30%, rgba(42,42,42,1) 100%);
+}
+
+.skill .container header h1 span {
+    color: rgb(83, 213, 163);
+}
+
+.skill .container .body {
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+.container .body::-webkit-scrollbar {
+    width: 10px;              /* width of the entire scrollbar */
+  }
+  
+.container .body::-webkit-scrollbar-track {
+    background: #2a2a2a;        /* color of the tracking area */
+    border-top-right-radius: 20px;  
+    border-bottom-right-radius: 20px;      
+  }
+  
+.container .body::-webkit-scrollbar-thumb {
+    background-color: rgb(75, 75, 75);    
+    border-radius: 20px;      
+  }
+
+.skill .container .body .column {
+    display: flex;
+}
+
+.skill .container .body div {
+    width: 100%;
+}
+
+.skill header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill header i {
+    font-size: 20px;
+}
+
+.skill .coding hr, .skill .idiom hr, .skill .design hr, .skill .knowledge hr {
+    margin-inline: 20px;
+}
+
+.skill .coding hr, .skill .design hr {
+    background: linear-gradient(90deg, rgba(168,168,168,1) 40%, rgba(42,42,42,1) 100%);
+    border: none;
+    height: 1px;
+}
+
+.skill .idiom hr, .skill .knowledge hr {
+    background: linear-gradient(280deg, rgba(168,168,168,1) 40%, rgba(42,42,42,1) 100%);
+    border: none;
+    height: 1px;
+}
+
+.skill .division-1 {
+    background: linear-gradient(180deg, rgba(168,168,168,1) 20%, rgba(42,42,42,1) 100%);
+    border: none;
+    width: 2px;
+}
+
+.skill li {
+    list-style: none;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+}
+
+.skill .division-2 {
+    background: linear-gradient(360deg, rgba(168,168,168,1) 20%, rgba(42,42,42,1) 100%);
+    border: none;
+    width: 2px;
+}
+
+.skill .coding ul li {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: 10px;
+}
+
+.skill .body i {
+    color: rgb(83, 213, 163);
+}
+
+.skill .idiom .level {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill .idiom ul li div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgb(83, 213, 163);
+}
+
+.skill .design ul li input {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid rgb(83, 213, 163);
+}
+
+.skill .design ul li p {
+    margin-bottom: 5px;
+}
+
+.skill .design ul li {
+    margin-bottom: 20px;
+}
+
+.skill .design .wb-d {
+    background: linear-gradient(to right, rgb(83, 213, 163) 0%, rgb(83, 213, 163) 90%, #2a2a2a 0%, #2a2a2a 100% );;
+}
+
+.skill .design .ph {
+    background: linear-gradient(to right, rgb(83, 213, 163) 0%, rgb(83, 213, 163) 60%, #2a2a2a 0%, #2a2a2a 100% );;
+}
+
+.skill .design .ai {
+    background: linear-gradient(to right, rgb(83, 213, 163) 0%, rgb(83, 213, 163) 20%, #2a2a2a 0%, #2a2a2a 100% );;
+}
+
+.skill .design .ev {
+    background: linear-gradient(to right, rgb(83, 213, 163) 0%, rgb(83, 213, 163) 60%, #2a2a2a 0%, #2a2a2a 100% );;
+}
+
+.skill .knowledge .skills-img {
+    width: 60px;
+    margin: 10px;
+}
+

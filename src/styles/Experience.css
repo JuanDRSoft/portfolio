@@ -1,0 +1,158 @@
+.experiences .container::-webkit-scrollbar {
+   width: 10px;              /* width of the entire scrollbar */
+ }
+ 
+.experiences .container::-webkit-scrollbar-track {
+   background: #2a2a2a;        /* color of the tracking area */
+   border-top-right-radius: 20px;  
+   border-bottom-right-radius: 20px;      
+ }
+ 
+.experiences .container::-webkit-scrollbar-thumb {
+   background-color: rgb(75, 75, 75);    
+   border-radius: 20px;      
+ }
+
+
+.experiences {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -10;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+    transition-duration: 500ms;
+ }
+
+ .experiences.open {
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.863);
+    opacity: 100%;
+    transition-duration: 500ms;
+ }
+
+ .experiences .container,.experiences header {
+   display: flex;
+   gap: 15px;
+ }
+
+ .experiences .container {
+   position: relative;
+    background-color: #2a2a2a;
+    width: 40vw;
+    height: 80vh;
+    padding-inline: 50px;
+    padding-block: 30px;
+    border-radius: 10px;
+    overflow-y: scroll;
+ }
+
+ .experiences header {
+   align-items: center;
+ }
+
+ .experience {
+   flex: 1;
+   padding-right: 15px;
+ }
+
+ .education {
+   flex: 1;
+   margin-left: 10px ;
+ }
+
+ .experiences .container header i {
+   font-size: 28px;
+   color: rgb(255, 71, 120);
+ }
+
+ .experiences h1 {
+   font-size: 24px;
+ }
+
+ .fa-times-circle {
+   position: absolute;
+   right: 20px;
+   top: 20px;
+ }
+
+ .experiences .date {
+   border: 1px solid rgb(255, 71, 120);
+   padding: 3px;
+   font-size: 12px;
+ }
+
+ .experiences .preview div {
+   margin-top: 20px;
+ }
+
+ .experiences .preview .img {
+   width: 100px;
+   height: 100px;
+ }
+
+ .experiences img {
+   width: 100%;
+ }
+
+ .experiences .preview .title {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .title h2 {
+  font-size: 15px;
+  margin-top: 8px;
+ }
+
+ .title p {
+  margin-top: -10px;
+  font-size: 14px;
+  color: #a8a8a8;
+  margin-bottom: 0px;
+ }
+
+ h2, p, span {
+  font-family: MontSerrat,Tahoma,Arial,sans-serif;
+ }
+
+ .preview .ocupation p {
+  margin-top: -7px;
+  color: #a8a8a8;
+ }
+
+ .preview hr {
+  background: rgb(168,168,168);
+  background: linear-gradient(90deg, rgba(168,168,168,1) 40%, rgba(42,42,42,1) 100%);
+  border: none;
+  height: 0.9px;
+ }
+
+ .preview {
+  padding-bottom: 20px;
+ }
+
+ .division-experience {
+  background: rgb(168,168,168);
+  background: linear-gradient(180deg, rgba(168,168,168,1) 20%, rgba(42,42,42,1) 100%);
+  border: none;
+  width: 1px;
+  height: 70vh;
+ }
+
+ .education .preview .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .education .preview .img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}

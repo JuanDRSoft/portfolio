@@ -24,7 +24,7 @@ const Layout = () => {
     <Loading />
   ) : (
     <div>
-      <div className="header">
+      {/* <div className="header">
         <div className="social">
           <a
             className="linkedin"
@@ -53,7 +53,7 @@ const Layout = () => {
             Contacto
           </NavLink>
         </div>
-      </div>
+      </div> */}
 
       <Outlet />
     </div>
