@@ -1,6 +1,6 @@
 // import Freelance from
 import SOLUTIO from "../img/solutio.png";
-import JTHREEAGENCY from "../img/jthreeAgency.png";
+import JTHREEAGENCY from "../img/jthreeagency.png";
 import FIVERR from "../img/Fiverr-logo.png";
 import EAM from "../img/eam.png";
 import UDEMY from "../img/udemy.png";
