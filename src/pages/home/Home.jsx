@@ -43,14 +43,14 @@ const Home = () => {
           <div className="skills">
             <div className="years" onClick={openExperience}>
               <div>
-                <p>1.5+</p>
+                <p>2.5+</p>
                 <span>Año de experiencia</span>
               </div>
             </div>
 
             <div className="project" onClick={openProjects}>
               <div>
-                <p>{data.length}+</p>
+                <p>{data.length + 20}+</p>
                 <span>Proyectos Realizados</span>
               </div>
             </div>
